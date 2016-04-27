@@ -1,0 +1,104 @@
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-27 03:27:57 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (1.5ms)
+Completed 200 OK in 15ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (136.5ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (154.8ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateAdminUsers (20160427013341)
+  [1m[35m (79.2ms)[0m  CREATE TABLE `admin_users` (`id` int(11) auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (144.2ms)[0m  [1mCREATE UNIQUE INDEX `index_admin_users_on_email`  ON `admin_users` (`email`) [0m
+  [1m[35m (177.4ms)[0m  CREATE UNIQUE INDEX `index_admin_users_on_reset_password_token`  ON `admin_users` (`reset_password_token`) 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20160427013341')
+  [1m[36m (46.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateActiveAdminComments (20160427013343)
+DEPRECATION WARNING: `#timestamps` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in up at /home/te7a/Desktop/Rails_Project/simple_mooc/db/migrate/20160427013343_create_active_admin_comments.rb:9)
+  [1m[35m (87.5ms)[0m  CREATE TABLE `active_admin_comments` (`id` int(11) auto_increment PRIMARY KEY, `namespace` varchar(255), `body` text, `resource_id` varchar(255) NOT NULL, `resource_type` varchar(255) NOT NULL, `author_id` int(11), `author_type` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (155.4ms)[0m  [1mCREATE  INDEX `index_active_admin_comments_on_namespace`  ON `active_admin_comments` (`namespace`) [0m
+  [1m[35m (143.3ms)[0m  CREATE  INDEX `index_active_admin_comments_on_author_type_and_author_id`  ON `active_admin_comments` (`author_type`, `author_id`) 
+  [1m[36m (132.7ms)[0m  [1mCREATE  INDEX `index_active_admin_comments_on_resource_type_and_resource_id`  ON `active_admin_comments` (`resource_type`, `resource_id`) [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20160427013343')[0m
+  [1m[35m (42.2ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.5ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'rails_mooc'
+  AND fk.table_name = 'active_admin_comments'
+
+  [1m[36m (0.3ms)[0m  [1mSHOW CREATE TABLE `active_admin_comments`[0m
+  [1m[35m (0.5ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'rails_mooc'
+  AND fk.table_name = 'admin_users'
+
+  [1m[36m (0.3ms)[0m  [1mSHOW CREATE TABLE `admin_users`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateUsers (20160427014007)
+  [1m[35m (107.7ms)[0m  CREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (176.8ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) [0m
+  [1m[35m (121.1ms)[0m  CREATE UNIQUE INDEX `index_users_on_reset_password_token`  ON `users` (`reset_password_token`) 
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20160427014007')
+  [1m[36m (38.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'rails_mooc'
+  AND fk.table_name = 'active_admin_comments'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `active_admin_comments`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'rails_mooc'
+  AND fk.table_name = 'admin_users'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `admin_users`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'rails_mooc'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `users`
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-27 03:46:54 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 7472ms (Views: 7463.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-27 03:47:02 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 143ms (Views: 141.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-27 03:47:02 +0200
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-27 03:47:02 +0200
