@@ -13,4 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require bootstrap.js
+//= require slick.js
+//= require waypoints.js
+//= require jquery.counterup.js
+//= require jquery.mixitup.js
+//= require jquery.fancybox.pack.js
+//= require wow.js
+//= require custom.js
