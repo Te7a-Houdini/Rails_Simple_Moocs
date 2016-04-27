@@ -91,7 +91,7 @@ img{
 	text-indent: -9999em;
 	width: 11em;
 	height: 11em;
-	border-radius: 50%;	
+	border-radius: 50%;
 	position: relative;
 	-webkit-animation: load3 1.4s infinite linear;
 	animation: load3 1.4s infinite linear;
@@ -101,7 +101,7 @@ img{
 }
 .loader:before {
 	width: 50%;
-	height: 50%;	
+	height: 50%;
 	border-radius: 100% 0 0 0;
 	position: absolute;
 	top: 0;
@@ -380,29 +380,6 @@ img{
 	background-color: #fff;
 	cursor: text;
 }
-.search-area input[type="submit"] {
-	background-image: url("assets/images/search-icon.png");
-	background-position: center center;
-	background-repeat: no-repeat;
-	border: medium none;
-	cursor: pointer;
-	display: inline-block;
-	float: right;
-	height: 35px;
-	outline: medium none;
-	position: absolute;
-	right: 0;
-	text-indent: -10000px;
-	top: 53%;
-	-webkit-transition: opacity 0.4s ease 0s;
-	      transition: opacity 0.4s ease 0s;
-	width: 45px;
-	z-index: 2;
-}
-.search-area input[type="submit"]:hover {
-  opacity: 0.8;
-}
-
 /*--------------------*/
 /* ABOUT */
 /*--------------------*/
@@ -721,20 +698,6 @@ img{
 	transition: all 0.4s ease-in-out;
 }
 
-.team-img-1 { 
-	background-image: url(assets/images/team-member1.png);
-}
-
-.team-img-2 { 
-	background-image: url(assets/images/team-member2.png);
-}
-
-.team-img-3 { 
-	background-image: url(assets/images/team-member3.png);
-}
-.team-img-4 { 
-	background-image: url(assets/images/team-member4.png);
-}
 .team-info {
 	position: absolute;
 	width: inherit;
@@ -1486,7 +1449,7 @@ img{
 /*--------------------*/
 
 #contact {
-	background-image: url("assets/images/contact-bg.jpg");
+
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;

@@ -172,16 +172,16 @@ Author URI : http://www.markups.io/
 .scrollToTop:focus{  
   background-color: #00d999; 
 }
-.loader {  
+.loader {
   background: #00d999;
   background: -moz-linear-gradient(left, #00d999 10%, rgba(255, 255, 255, 0) 42%);
   background: -webkit-linear-gradient(left, #00d999 10%, rgba(255, 255, 255, 0) 42%);
   background: -o-linear-gradient(left, #00d999 10%, rgba(255, 255, 255, 0) 42%);
   background: -ms-linear-gradient(left, #00d999 10%, rgba(255, 255, 255, 0) 42%);
-  background: linear-gradient(to right, #00d999 10%, rgba(255, 255, 255, 0) 42%);  
+  background: linear-gradient(to right, #00d999 10%, rgba(255, 255, 255, 0) 42%);
 }
 .loader:before {
-  background: #00d999; 
+  background: #00d999;
 }
 .footer-bottom p a{
   color: #00d999;

@@ -18,6 +18,7 @@
 	9. FANCYBOX ( FOR PORTFOLIO POPUP VIEW ) 
 	10. MOBILE MENU CLOSE 
 	11. PRELOADER 
+	11. PRELOADER
 	12. INSTAGRAM SLIDER (SLICK SLIDER)
 	13. WOW ANIMATION 	
 	
@@ -201,7 +202,7 @@ jQuery(function($){
 		       // Set/remove active class
 		       menuItems
 		         .parent().removeClass("active")
-		         .end().filter("[href=#"+id+"]").parent().addClass("active");
+		         .end().filter('[href=#'+id+']').parent().addClass("active");
 		   }           
 		})
 
@@ -234,6 +235,7 @@ jQuery(function($){
 	/* ----------------------------------------------------------- */ 
 
 	jQuery(window).load(function() { // makes sure the whole site is loaded
+       
       $('.loader').fadeOut(); // will first fade out the loading animation
       $('#preloader').delay(100).fadeOut('slow'); // will fade out the white DIV that covers the website.
       $('body').delay(100).css({'overflow':'visible'});

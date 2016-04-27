@@ -2,16 +2,14 @@
 <html>
 <head>
   <title>SimpleMooc</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-<!-- BEGAIN PRELOADER -->
 <div id="preloader">
   <div class="loader">&nbsp;</div>
 </div>
-<!-- END PRELOADER -->
 
 <!-- SCROLL TOP BUTTON -->
 <a class="scrollToTop" href="#"><i class="fa fa-chevron-up"></i></a>
@@ -35,7 +33,7 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul id="top-menu" class="nav navbar-nav main-nav menu-scroll">
-          <li class="active"><a href="index.html">Home</a></li>
+          <li class="active"><%= link_to "home", root_path %> </li>
 
 
           <li><a href="#testimonial">What people Say About Us </a></li>
@@ -73,5 +71,10 @@
   </div>
 </footer>
 <!-- End Footer -->
+<script>
+  $('.loader').fadeOut(); // will first fade out the loading animation
+  $('#preloader').delay(100).fadeOut('slow'); // will fade out the white DIV that covers the website.
+  $('body').delay(100).css({'overflow':'visible'});
+</script>
 </body>
 </html>
