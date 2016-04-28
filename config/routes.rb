@@ -1,4 +1,17 @@
 Rails.application.routes.draw do
+  get 'lectures/new'
+
+  get 'lectures/create'
+
+  get 'lectures/show'
+
+  get 'lectures/update'
+
+  get 'lectures/edit'
+
+  get 'lectures/destroy'
+
+  mount Ckeditor::Engine => '/ckeditor'
   get 'courses/index'
 
   get 'courses/new'
@@ -10,12 +23,14 @@ Rails.application.routes.draw do
   devise_for :users, controllers: { sessions: "users/sessions" , registrations: "users/registrations" }
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
    root 'home#index'
     resources :courses
+  resources :lectures
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

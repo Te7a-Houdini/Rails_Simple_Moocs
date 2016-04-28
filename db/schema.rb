@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160428081549) do
+ActiveRecord::Schema.define(version: 20160428112313) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace",     limit: 255
@@ -46,6 +46,23 @@ ActiveRecord::Schema.define(version: 20160428081549) do
   add_index "admin_users", ["email"], name: "index_admin_users_on_email", unique: true, using: :btree
   add_index "admin_users", ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true, using: :btree
 
+  create_table "ckeditor_assets", force: :cascade do |t|
+    t.string   "data_file_name",    limit: 255, null: false
+    t.string   "data_content_type", limit: 255
+    t.integer  "data_file_size",    limit: 4
+    t.string   "data_fingerprint",  limit: 255
+    t.integer  "assetable_id",      limit: 4
+    t.string   "assetable_type",    limit: 30
+    t.string   "type",              limit: 30
+    t.integer  "width",             limit: 4
+    t.integer  "height",            limit: 4
+    t.datetime "created_at",                    null: false
+    t.datetime "updated_at",                    null: false
+  end
+
+  add_index "ckeditor_assets", ["assetable_type", "assetable_id"], name: "idx_ckeditor_assetable", using: :btree
+  add_index "ckeditor_assets", ["assetable_type", "type", "assetable_id"], name: "idx_ckeditor_assetable_type", using: :btree
+
   create_table "courses", force: :cascade do |t|
     t.string   "title",      limit: 255
     t.string   "image",      limit: 255, default: "default.jpg"
@@ -55,6 +72,17 @@ ActiveRecord::Schema.define(version: 20160428081549) do
   end
 
   add_index "courses", ["user_id"], name: "index_courses_on_user_id", using: :btree
+
+  create_table "lectures", force: :cascade do |t|
+    t.text     "content",     limit: 65535
+    t.string   "attachement", limit: 255
+    t.string   "title",       limit: 255
+    t.string   "image",       limit: 255,   default: "default.jpg"
+    t.integer  "course_id",   limit: 4
+    t.integer  "user_id",     limit: 4
+    t.datetime "created_at",                                        null: false
+    t.datetime "updated_at",                                        null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  limit: 255, default: "",             null: false

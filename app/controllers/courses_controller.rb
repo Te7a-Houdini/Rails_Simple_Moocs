@@ -17,6 +17,7 @@ class CoursesController < ApplicationController
 
      redirect_to courses_index_path
     else
+
       render 'new'
     end
 

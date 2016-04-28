@@ -50,7 +50,7 @@
 
               <% if current_user.is_instructor == true%>
                   <li><%= link_to "New Course" , courses_new_path %></li>
-                  <li><%= link_to "New Lecture" , courses_new_path %></li>
+                  <li><%= link_to "New Lecture" , lectures_new_path %></li>
               <% end %>
               <li><%= link_to "Update Avatar" , edit_user_registration_path%></li>
               <li ><%= link_to "logout" , destroy_user_session_path , :method => :delete %></li>
