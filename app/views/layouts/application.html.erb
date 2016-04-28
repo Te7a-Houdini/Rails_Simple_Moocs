@@ -36,9 +36,10 @@
           <li class="active"><%= link_to "home", root_path %> </li>
 
 
-          <li><a href="#testimonial">What people Say About Us </a></li>
+          <li></li>
           <li><a href="courses.html">Courses </a></li>
-          <li><a href="#contact">SignUp/Login</a></li>
+          <li><%= link_to "SingUp/Login" , new_user_session_path  %></li>
+          <li><%= link_to "logout" , destroy_user_session_path , :method => :delete%></li>
         </ul>
       </div><!--/.nav-collapse -->
 
