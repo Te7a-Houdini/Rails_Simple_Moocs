@@ -6,9 +6,11 @@ class User < ActiveRecord::Base
 
   mount_uploader :avatar , AvatarUploader
 
-  validates :name , :presence => true , length: { minimum: 5}
+  validates :name , :presence => true , length: { minimum: 5 , maximum: 17}
   validates :gender , :presence => true
 
   validates :birth_date , :presence => true
 
+
+  has_many :courses
 end

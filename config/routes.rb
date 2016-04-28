@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'courses/index'
+
+  get 'courses/new'
+
+  get 'courses/create'
+
   get 'home/index'
 
   devise_for :users, controllers: { sessions: "users/sessions" , registrations: "users/registrations" }
@@ -9,7 +15,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
    root 'home#index'
-
+    resources :courses
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

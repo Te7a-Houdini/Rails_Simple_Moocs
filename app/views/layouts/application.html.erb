@@ -37,18 +37,23 @@
         <ul id="top-menu" class="nav navbar-nav main-nav menu-scroll">
           <% if user_signed_in? %>
 
-            <%= current_user.name %> &nbsp; &nbsp;
+            <%= current_user.name %>
               <%= image_tag current_user.avatar  , style: 'width:60px; height:60px; border-radius: 50%;'%>
               <% end %>
-          <li class="active"><%= link_to "home", root_path %> </li>
+          <li ><%= link_to "home", root_path %> </li>
 
 
-          <li></li>
+
           <li><a href="courses.html">Courses </a></li>
+
           <% if user_signed_in? %>
 
+              <% if current_user.is_instructor == true%>
+                  <li><%= link_to "New Course" , courses_new_path %></li>
+                  <li><%= link_to "New Lecture" , courses_new_path %></li>
+              <% end %>
               <li><%= link_to "Update Avatar" , edit_user_registration_path%></li>
-              <li><%= link_to "logout" , destroy_user_session_path , :method => :delete%></li>
+              <li ><%= link_to "logout" , destroy_user_session_path , :method => :delete %></li>
 
               <% else %>
               <li><%= link_to "SingUp/Login" , new_user_session_path  %></li>
