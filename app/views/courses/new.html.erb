@@ -1,2 +1,31 @@
-<h1>Courses#new</h1>
-<p>Find me in app/views/courses/new.html.erb</p>
+<section id="contact">
+  <div class="col-md-12 col-sm-6 col-xs-12">
+    <div class="contact-right wow fadeInRight">
+      <h1> Create A Course</h1>
+      <%= form_for(@course,class: 'contact-form') do |f|%>
+          <ul>
+            <% @course.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end%>
+          </ul>
+          <div class="form-group">
+            <%= f.label :title %><br />
+            <%= f.text_field :title,class: 'form-control' ,autofocus: true %>
+          </div>
+
+
+          <div class="form-group">
+            <%= f.label :image , "Upload a Course Image" %><br />
+            <%= f.file_field :image,class: 'form-control' %>
+          </div>
+
+
+          <%= f.submit "Create Course" ,class: 'btn btn-warning' %>
+
+      <% end %>
+
+
+
+        </div>
+    </div>
+  </section>

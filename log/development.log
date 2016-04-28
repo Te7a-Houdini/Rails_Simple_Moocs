@@ -41573,3 +41573,2009 @@ Started GET "/" for 127.0.0.1 at 2016-04-28 09:36:42 +0200
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (1.1ms)
 Completed 200 OK in 46ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 09:49:07 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 50ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/style.self-305e849c28a309cb7260795fad6eac3b531a716698cf6474bb11448ce918cd54.css?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/logo-d823076ef133ff8ccf00548ac6ba7b2e994546aba4b7ae521a6bf510843fca3a.jpg" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/assets/counter-bg-fd754b12d04fc1df26baead8516452fce63089aacef357449b921c573795a9c1.jpg" for 127.0.0.1 at 2016-04-28 09:49:08 +0200
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 09:50:46 +0200
+Processing by CoursesController#new as HTML
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-04-28 09:50:46 +0200
+Processing by Users::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.3ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 58ms (Views: 45.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-04-28 09:50:52 +0200
+Processing by Users::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-04-28 09:50:57 +0200
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u2HccPkdn29rDYFtQwYDnQd8BdFicKPpAXtpaKmdyAXaN2W1I8hf3fikankNYzFAusjzVtiyXwlzenuw+9eacw==", "user"=>{"email"=>"ahmed@yahoo.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`email` = 'ahmed@yahoo.com'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2016-04-28 07:36:32', `current_sign_in_at` = '2016-04-28 07:50:57', `sign_in_count` = 8, `updated_at` = '2016-04-28 07:50:57' WHERE `users`.`id` = 5
+  [1m[36m (34.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/courses/new
+Completed 302 Found in 195ms (ActiveRecord: 35.6ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 09:50:57 +0200
+Processing by CoursesController#new as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered courses/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 42ms (Views: 39.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 09:51:01 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 52ms (Views: 51.4ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2016-04-28 09:51:05 +0200
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"P5vlrH+1ImQKrgjbnli9Sr5fPQlmiDFeGkOFLlJ2AnLv/pXDqIobH6yUgDqkebwa4n5qVrmP7SHGsXHVrEEyNg=="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 09:51:05 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 40ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-04-28 09:51:41 +0200
+Processing by Users::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 56ms (Views: 43.1ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-04-28 09:51:45 +0200
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BbioeBkRQeAijAKQcWwFnZ1Oj7VzueVk8mMd2MP1Vv+OoaAw6MvaDHLURjiRocek87FwbEox9b8qvlJXj27+zQ==", "user"=>{"email"=>"ahmed@yahoo.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'ahmed@yahoo.com'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2016-04-28 07:50:57', `current_sign_in_at` = '2016-04-28 07:51:45', `sign_in_count` = 9, `updated_at` = '2016-04-28 07:51:45' WHERE `users`.`id` = 5[0m
+  [1m[35m (28.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 184ms (ActiveRecord: 29.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 09:51:45 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2016-04-28 09:51:47 +0200
+Processing by Users::RegistrationsController#edit as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered users/registrations/edit.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 63ms (Views: 61.2ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2016-04-28 09:51:52 +0200
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"tcCccPKnrXlG8ypR3sGw2Ckly2NdZbb90U2QtXAUI1GzvnafeZYZqLLrMqVNcFHjO2EzRogQcegHI8jLw9Lu8Q=="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 09:51:52 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 09:52:42 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 46ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/index" for 127.0.0.1 at 2016-04-28 09:52:44 +0200
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 09:52:45 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-04-28 09:52:54 +0200
+Processing by Users::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.3ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 54ms (Views: 41.6ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-04-28 09:53:04 +0200
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Jy7LviOQ4FYZDpyGOMPkbBNMIcb2tXqVmDeGCi9VUdNsxZ2c83s39rW8faFMiSMoVbstv5sL/XaWQeg6BMon6Q==", "user"=>{"email"=>"ahmed@yahoo.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`email` = 'ahmed@yahoo.com'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2016-04-28 07:51:45', `current_sign_in_at` = '2016-04-28 07:53:04', `sign_in_count` = 10, `updated_at` = '2016-04-28 07:53:04' WHERE `users`.`id` = 5
+  [1m[36m (60.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 213ms (ActiveRecord: 61.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 09:53:04 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 09:53:10 +0200
+Processing by CoursesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered courses/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+Processing by CoursesController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered courses/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 76ms (Views: 54.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/style.self-305e849c28a309cb7260795fad6eac3b531a716698cf6474bb11448ce918cd54.css?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started GET "/assets/logo-d823076ef133ff8ccf00548ac6ba7b2e994546aba4b7ae521a6bf510843fca3a.jpg" for 127.0.0.1 at 2016-04-28 09:58:13 +0200
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 09:58:20 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPeiuiYmgyc0fd14YQK9cRhJ+UONOhDvPQtKZAkpiVJ/CBh3M2xEnNc18d8ojqhBghZvLSUCA/xuPszQ02S4kg==", "course"=>{"title"=>""}, "commit"=>"Create Course"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered courses/create.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 09:58:22 +0200
+Processing by CoursesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered courses/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 44ms (Views: 41.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 09:58:46 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4kDdFCGJo+8YClCHnF+irfP046CKTvAA1hZJdgN8cp1Zv2fZNMNkVPtCfCDV07edaat1ziJ24xOFI8/C2TFDXQ==", "course"=>{"title"=>""}, "commit"=>"Create Course"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered courses/create.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 59ms (Views: 43.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+Processing by CoursesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered courses/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 55ms (Views: 44.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/style.self-305e849c28a309cb7260795fad6eac3b531a716698cf6474bb11448ce918cd54.css?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started GET "/assets/logo-d823076ef133ff8ccf00548ac6ba7b2e994546aba4b7ae521a6bf510843fca3a.jpg" for 127.0.0.1 at 2016-04-28 09:58:50 +0200
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 09:59:15 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5f/1eS/iCYm9H8Gz3/L8C6uhRNZ8ebZHQ46YAv07cXVeAE+0OqjOMl5X7RSWfuk7Mf7SuNRBpVQQux62J3ZAtQ==", "course"=>{"title"=>""}, "commit"=>"Create Course"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered courses/create.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 78ms (Views: 62.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+Processing by CoursesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered courses/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 48ms (Views: 41.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/style.self-305e849c28a309cb7260795fad6eac3b531a716698cf6474bb11448ce918cd54.css?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/logo-d823076ef133ff8ccf00548ac6ba7b2e994546aba4b7ae521a6bf510843fca3a.jpg" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started GET "/assets/logo-d823076ef133ff8ccf00548ac6ba7b2e994546aba4b7ae521a6bf510843fca3a.jpg" for 127.0.0.1 at 2016-04-28 09:59:27 +0200
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 09:59:35 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9K4iox49xqmHj3MZY6A5mw2uaYqTTr40vg05HWYl9YhPUZhuC3cBEmTHX74qLCyrl/H/5Dt2rSftOL+pvGjESA==", "course"=>{"title"=>"", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f6a6c64ea00 @tempfile=#<Tempfile:/tmp/RackMultipart20160428-4435-o92s63.rb>, @original_filename="test3.rb", @content_type="application/x-ruby", @headers="Content-Disposition: form-data; name=\"course[image]\"; filename=\"test3.rb\"\r\nContent-Type: application/x-ruby\r\n">}, "commit"=>"Create Course"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered courses/create.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 49ms (Views: 47.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+Processing by CoursesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered courses/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 45ms (Views: 42.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/style.self-305e849c28a309cb7260795fad6eac3b531a716698cf6474bb11448ce918cd54.css?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/logo-d823076ef133ff8ccf00548ac6ba7b2e994546aba4b7ae521a6bf510843fca3a.jpg" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started GET "/assets/logo-d823076ef133ff8ccf00548ac6ba7b2e994546aba4b7ae521a6bf510843fca3a.jpg" for 127.0.0.1 at 2016-04-28 09:59:48 +0200
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 09:59:50 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BLcjwVAYj4O+PVEGQ9HIU63Y13dG6HdE3fdU5cohaZG/SJkMRVJIOF11faEKXd1jN4dBGe7QZFeOwtJREGxYUQ==", "course"=>{"title"=>""}, "commit"=>"Create Course"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered courses/create.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 41ms (Views: 39.4ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BLcjwVAYj4O+PVEGQ9HIU63Y13dG6HdE3fdU5cohaZG/SJkMRVJIOF11faEKXd1jN4dBGe7QZFeOwtJREGxYUQ==", "course"=>{"title"=>""}, "commit"=>"Create Course"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered courses/create.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 43ms (Views: 41.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/style.self-305e849c28a309cb7260795fad6eac3b531a716698cf6474bb11448ce918cd54.css?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 10:00:03 +0200
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+Processing by CoursesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered courses/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 64ms (Views: 42.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+
+
+Started GET "/assets/style.self-305e849c28a309cb7260795fad6eac3b531a716698cf6474bb11448ce918cd54.css?body=1" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 10:01:42 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 10:01:43 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 10:01:43 +0200
+
+
+Started GET "/assets/logo-d823076ef133ff8ccf00548ac6ba7b2e994546aba4b7ae521a6bf510843fca3a.jpg" for 127.0.0.1 at 2016-04-28 10:01:43 +0200
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 10:01:46 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PSvRL4EMeJ/w1M/t0t0GYgeCo77VuT6ZEDhK1Qaew3yG1GvilEa/JBOc40qbURNSnd010H2BLYpDDcxh3NPyvA==", "course"=>{"title"=>"hjkhkjhjklhjkl"}, "commit"=>"Create Course"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered courses/create.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 43ms (Views: 40.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+Processing by CoursesController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered courses/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 73ms (Views: 47.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/style.self-305e849c28a309cb7260795fad6eac3b531a716698cf6474bb11448ce918cd54.css?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started GET "/assets/logo-d823076ef133ff8ccf00548ac6ba7b2e994546aba4b7ae521a6bf510843fca3a.jpg" for 127.0.0.1 at 2016-04-28 10:05:30 +0200
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 10:05:32 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"i3BnuTN/HSpXjXHG8I6yWyNt/kfur8lQh6rMJCMFtoowj910JjXakbTFXWG5AqdruTJoKUaX2kPUn0qQ+UiHSg==", "course"=>{"title"=>""}, "commit"=>"Create Course"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered courses/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 49ms (Views: 43.3ms | ActiveRecord: 0.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to ChangeCourseDefaultImage (20160428081549)
+  [1m[35m (34.4ms)[0m  ALTER TABLE `courses` CHANGE `image` `image` varchar(255) DEFAULT 'default.jpg'
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20160428081549')
+  [1m[36m (36.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.5ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'rails_mooc'
+  AND fk.table_name = 'active_admin_comments'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `active_admin_comments`
+  [1m[36m (0.5ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'rails_mooc'
+  AND fk.table_name = 'admin_users'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `admin_users`
+  [1m[36m (0.5ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'rails_mooc'
+  AND fk.table_name = 'courses'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `courses`
+  [1m[36m (0.5ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'rails_mooc'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `users`
+
+
+Started GET "/courses/index" for 127.0.0.1 at 2016-04-28 10:18:19 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 200 OK in 51ms (Views: 48.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 10:18:22 +0200
+Processing by CoursesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered courses/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 50ms (Views: 40.3ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 10:18:24 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4GHSfkEnnzjSkhHhDVaquG+TakgSEEB9PzQkI++xHFNbnmizVG1YgzHaPUZE2r+I9cz8JrooU25sAaKXNfwtkw==", "course"=>{"title"=>""}, "commit"=>"Create Course"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered courses/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 45ms (Views: 39.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 10:18:41 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V8xOcubPuopQdHJaFEodi2D8I5XF0dnjolvvC+2g+PzsM/S/84V9MbM8Xv1dxgi7+qO1+23pyvDxbmm/N+3JPA==", "course"=>{"title"=>"Security Engineering "}, "commit"=>"Create Course"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `courses` (`title`, `created_at`, `updated_at`) VALUES ('Security Engineering ', '2016-04-28 08:18:41', '2016-04-28 08:18:41')[0m
+  [1m[35m (70.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/courses/1
+Completed 302 Found in 79ms (ActiveRecord: 71.7ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2016-04-28 10:18:41 +0200
+
+AbstractController::ActionNotFound (The action 'show' could not be found for CoursesController):
+  actionpack (4.2.6) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/te7a/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/te7a/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/te7a/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.8ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.3ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.6ms)
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4GHSfkEnnzjSkhHhDVaquG+TakgSEEB9PzQkI++xHFNbnmizVG1YgzHaPUZE2r+I9cz8JrooU25sAaKXNfwtkw==", "course"=>{"title"=>""}, "commit"=>"Create Course"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered courses/create.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 70ms (Views: 45.6ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/style.self-305e849c28a309cb7260795fad6eac3b531a716698cf6474bb11448ce918cd54.css?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 10:20:08 +0200
+
+
+Started GET "/courses/index" for 127.0.0.1 at 2016-04-28 10:21:15 +0200
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 200 OK in 38ms (Views: 36.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 10:21:17 +0200
+Processing by CoursesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered courses/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 10:21:21 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"98QueuUXjfN4LgdUV8R4yZEsEO24phAjlPfun9MtCK9MO5S38F1KSJtmK/MeSG35C3OGgxCeAzDHwmgrCWA5bw==", "course"=>{"title"=>"kjhkljhlkj"}, "commit"=>"Create Course"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered courses/create.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"98QueuUXjfN4LgdUV8R4yZEsEO24phAjlPfun9MtCK9MO5S38F1KSJtmK/MeSG35C3OGgxCeAzDHwmgrCWA5bw==", "course"=>{"title"=>"kjhkljhlkj"}, "commit"=>"Create Course"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered courses/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 49ms (Views: 47.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/style.self-305e849c28a309cb7260795fad6eac3b531a716698cf6474bb11448ce918cd54.css?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:12 +0200
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 10:23:20 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"98QueuUXjfN4LgdUV8R4yZEsEO24phAjlPfun9MtCK9MO5S38F1KSJtmK/MeSG35C3OGgxCeAzDHwmgrCWA5bw==", "course"=>{"title"=>"kjhkljhlkj"}, "commit"=>"Create Course"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered courses/create.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 10:23:20 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 10:23:20 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 10:23:20 +0200
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 10:23:20 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 10:23:20 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 10:23:20 +0200
+
+
+Started GET "/assets/style.self-305e849c28a309cb7260795fad6eac3b531a716698cf6474bb11448ce918cd54.css?body=1" for 127.0.0.1 at 2016-04-28 10:23:20 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 10:23:20 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:20 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:20 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:20 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:20 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:20 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:20 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:20 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:21 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:21 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:21 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:21 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 10:23:21 +0200
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"98QueuUXjfN4LgdUV8R4yZEsEO24phAjlPfun9MtCK9MO5S38F1KSJtmK/MeSG35C3OGgxCeAzDHwmgrCWA5bw==", "course"=>{"title"=>"kjhkljhlkj"}, "commit"=>"Create Course"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered courses/create.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 42ms (Views: 40.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/style.self-305e849c28a309cb7260795fad6eac3b531a716698cf6474bb11448ce918cd54.css?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 10:24:50 +0200
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 10:25:45 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"98QueuUXjfN4LgdUV8R4yZEsEO24phAjlPfun9MtCK9MO5S38F1KSJtmK/MeSG35C3OGgxCeAzDHwmgrCWA5bw==", "course"=>{"title"=>"kjhkljhlkj"}, "commit"=>"Create Course"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered courses/create.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 72ms (Views: 46.7ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/style.self-305e849c28a309cb7260795fad6eac3b531a716698cf6474bb11448ce918cd54.css?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 10:25:46 +0200
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 10:26:07 +0200
+Processing by CoursesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered courses/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 77ms (Views: 55.0ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 10:26:14 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5CgowEklVUbPa2lWXlGXcQgI6WOpVMJk2Ac2pX2BRa5f15INXG+S/SwjRfEX3YJBkld/DQFs0XeLMrARp8x0bg==", "course"=>{"title"=>"Security Engineering "}, "commit"=>"Create Course"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `courses` (`title`, `user_id`, `created_at`, `updated_at`) VALUES ('Security Engineering ', 5, '2016-04-28 08:26:14', '2016-04-28 08:26:14')
+  [1m[36m (178.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/courses/2
+Completed 302 Found in 184ms (ActiveRecord: 178.8ms)
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2016-04-28 10:26:14 +0200
+
+AbstractController::ActionNotFound (The action 'show' could not be found for CoursesController):
+  actionpack (4.2.6) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/te7a/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/te7a/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/te7a/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.9ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.4ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+Processing by CoursesController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered courses/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 59ms (Views: 40.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/style.self-305e849c28a309cb7260795fad6eac3b531a716698cf6474bb11448ce918cd54.css?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/logo-d823076ef133ff8ccf00548ac6ba7b2e994546aba4b7ae521a6bf510843fca3a.jpg" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started GET "/assets/logo-d823076ef133ff8ccf00548ac6ba7b2e994546aba4b7ae521a6bf510843fca3a.jpg" for 127.0.0.1 at 2016-04-28 10:27:18 +0200
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 10:27:31 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PgeoJv4WnOzWOH7xqIPJabl/JVMhroTIh3i020RmF1GF+BLr61xbVzVwUlbhD9xZIyCzPYmWl9vUTTJvnismkQ==", "course"=>{"title"=>"Python"}, "commit"=>"Create Course"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `courses` (`title`, `user_id`, `created_at`, `updated_at`) VALUES ('Python', 5, '2016-04-28 08:27:31', '2016-04-28 08:27:31')[0m
+  [1m[35m (68.4ms)[0m  COMMIT
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  Rendered courses/create.html.erb within layouts/application (36.2ms)
+Completed 200 OK in 156ms (Views: 81.1ms | ActiveRecord: 69.4ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 10:27:41 +0200
+Processing by CoursesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered courses/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 36ms (Views: 34.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 10:27:57 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EYH6SsZA/SPBrJ8mpeDBIubsYoeuSiOJCY2zihq0LQmqfkCH0wo6mCLks4HsbNQSfLP06QZyMJpauDU+wPkcyQ==", "course"=>{"title"=>"Rails", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f6a65a76b98 @tempfile=#<Tempfile:/tmp/RackMultipart20160428-4435-4kl41r.jpg>, @original_filename="1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"course[image]\"; filename=\"1.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Course"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Unpermitted parameter: image
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `courses` (`title`, `user_id`, `created_at`, `updated_at`) VALUES ('Rails', 5, '2016-04-28 08:27:57', '2016-04-28 08:27:57')[0m
+  [1m[35m (59.8ms)[0m  COMMIT
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  Rendered courses/create.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 105ms (Views: 39.7ms | ActiveRecord: 60.6ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 10:28:35 +0200
+Processing by CoursesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered courses/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 73ms (Views: 48.5ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 10:28:41 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v+W8yk6mh/f4OVmnYrXbpxNDxR32pR2BXEG6zs9KFK0EGgYHW+xATBtxdQArOc6XiRxTc16dDpIPdDx6FQclbQ==", "course"=>{"title"=>"Rails", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f6a6f6ac580 @tempfile=#<Tempfile:/tmp/RackMultipart20160428-4435-2dfdfs.jpg>, @original_filename="1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"course[image]\"; filename=\"1.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Course"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`) VALUES ('Rails', '1.jpg', 5, '2016-04-28 08:28:41', '2016-04-28 08:28:41')[0m
+  [1m[35m (62.1ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  Rendered courses/create.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 118ms (Views: 46.9ms | ActiveRecord: 62.9ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 10:31:31 +0200
+Processing by CoursesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered courses/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 73ms (Views: 39.9ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 10:31:36 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Uj+RIv/5cNERSPU8lY5zeTKSS7bvwDURrmjtm8wqu0jpwCvv6rO3avIA2ZvcAmZJqM3d2Ef4JgL9XWsvFmeKiA==", "course"=>{"title"=>"C ++"}, "commit"=>"Create Course"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered courses/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 45ms (Views: 39.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 10:32:02 +0200
+Processing by CoursesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered courses/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 66ms (Views: 43.1ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/courses" for 127.0.0.1 at 2016-04-28 10:32:08 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9Msur+W+wE1S1QJ5uj9JWLgrR/Umt5XtdH/580DSwoZPNJRi8PQH9rGdLt7zs1xoInTRm46Phv4nSn9Hmp/zRg==", "course"=>{"title"=>"C ++"}, "commit"=>"Create Course"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `courses` (`title`, `user_id`, `created_at`, `updated_at`) VALUES ('C ++', 5, '2016-04-28 08:32:09', '2016-04-28 08:32:09')[0m
+  [1m[35m (55.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/courses/index
+Completed 302 Found in 63ms (ActiveRecord: 55.7ms)
+
+
+Started GET "/courses/index" for 127.0.0.1 at 2016-04-28 10:32:09 +0200
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 38ms (Views: 36.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 10:32:13 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses/index" for 127.0.0.1 at 2016-04-28 10:32:34 +0200
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 35ms (Views: 34.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 10:32:37 +0200
+Processing by CoursesController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered courses/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 35ms (Views: 33.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 10:32:41 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 46ms (Views: 44.7ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2016-04-28 10:32:48 +0200
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"X6ZgW6jBHlMjorPlruqfWL1/s8Q4kla9jG70cMS9MEvkWdqWvYvZ6MDqn0LnZopoJyAlqpCqRa7fW3LEHvABiw=="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 10:32:48 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 39ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-04-28 10:32:50 +0200
+Processing by Users::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-04-28 10:32:56 +0200
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BDD8nHJPNO/F9jkSILF7jtfe0P0F2BwREM78MIDJO74djuhig9mg1quRmD+RvfazEXhxvDYb4JqFRlvSdcQtBw==", "user"=>{"email"=>"ahmed@yahoo.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'ahmed@yahoo.com'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2016-04-28 07:53:04', `current_sign_in_at` = '2016-04-28 08:32:56', `sign_in_count` = 11, `updated_at` = '2016-04-28 08:32:56' WHERE `users`.`id` = 5[0m
+  [1m[35m (28.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 186ms (ActiveRecord: 29.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 10:32:56 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2016-04-28 10:33:02 +0200
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"9lskRMsqerFQhqnJojkE/CPFrth0jQ7rP82KwHJUZ0Q0U5Db6Hm3KiVelgkb3pMch2uhvusH3MAjf3zUktSJ7g=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 10:33:02 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 50ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-04-28 10:33:05 +0200
+Processing by Users::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.4ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 43ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-04-28 10:33:11 +0200
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"30gKYGMXRPmTg4Zw5DHYabjl7QjPnK9CRtJ36WB59RhVXez3Gj8KMsGcFj3WouRgNLVadUczgWRtVz0/ev5BuA==", "user"=>{"email"=>"khaled@yahoo.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'khaled@yahoo.com'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2016-04-28 07:05:04', `current_sign_in_at` = '2016-04-28 08:33:11', `sign_in_count` = 7, `updated_at` = '2016-04-28 08:33:11' WHERE `users`.`id` = 4[0m
+  [1m[35m (34.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 189ms (ActiveRecord: 35.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 10:33:11 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 4  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 53ms (Views: 51.4ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2016-04-28 10:33:14 +0200
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5p9begCDSVON+/stKFCAv3QYZB8UjE2QYp5ASDG6lD3Ordc42etCiDugoi2e9OY+oG/oGZxoa8f2mCXncDw6Mg=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 4  ORDER BY `users`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 10:33:14 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-04-28 10:33:28 +0200
+Processing by Users::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-04-28 10:33:32 +0200
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8gg6Nd1k+HZ3cuVfbAupko7s5lFJTTkU0RGtIj6+qysb4SxPA18hYm5Lm9Vg/xQgU/bI1UO2L2GGeWV2gvHOcA==", "user"=>{"email"=>"yara@yahoo.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'yara@yahoo.com'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2016-04-28 03:03:52', `current_sign_in_at` = '2016-04-28 08:33:32', `sign_in_count` = 3, `updated_at` = '2016-04-28 08:33:32' WHERE `users`.`id` = 2[0m
+  [1m[35m (36.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 190ms (ActiveRecord: 38.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 10:33:33 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 48ms (Views: 47.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/users/images/users/default.jpeg" for 127.0.0.1 at 2016-04-28 10:33:33 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/users/images/users/default.jpeg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/te7a/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/te7a/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/te7a/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.9ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (57.8ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.7ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.1ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2016-04-28 10:33:45 +0200
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"uicCWjQr0PZ1B+oaB7GRsTpCqVINcnf+faSQ3d9ozqPMPBbDYyh+Zp/zWveFsqB2XlrnkVop4rRD8DDMGiSt4A=="}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 10:33:45 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-04-28 10:33:46 +0200
+Processing by Users::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2016-04-28 10:33:54 +0200
+Processing by Users::RegistrationsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.2ms)
+  Rendered users/registrations/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-04-28 10:33:56 +0200
+Processing by Users::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2016-04-28 10:34:02 +0200
+Processing by Users::RegistrationsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.4ms)
+  Rendered users/registrations/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-04-28 10:34:04 +0200
+Processing by Users::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.4ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 69ms (Views: 68.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-04-28 10:34:10 +0200
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CLaAVSJl8wPTkui27zfWy11Vs9yYx99c1v3T1geLzN9+rZTMdWZdkzlmWFttNOcMOU39H8+cShboqXPHwsevnA==", "user"=>{"email"=>"yara@yahoo.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'yara@yahoo.com'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.6ms)
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CLaAVSJl8wPTkui27zfWy11Vs9yYx99c1v3T1geLzN9+rZTMdWZdkzlmWFttNOcMOU39H8+cShboqXPHwsevnA==", "user"=>{"email"=>"yara@yahoo.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendered users/shared/_links.html.erb (0.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 181ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2016-04-28 10:34:14 +0200
+Processing by Users::RegistrationsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.3ms)
+  Rendered users/registrations/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-04-28 10:34:47 +0200
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WwzeRfk+Ioq6xTV8zMJTtOpwfxaS+pbOHMZwAQOjMZAtF8rcrj2MGlAxhZFOwWJzjmgx1cWhA4QiktAQxu9S0w==", "user"=>{"email"=>"yara@yahoo.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Yara Mohamed", "birth_date(1i)"=>"1993", "birth_date(2i)"=>"2", "birth_date(3i)"=>"28", "gender"=>"Female", "is_instructor"=>"0", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007f6a646e1358 @tempfile=#<Tempfile:/tmp/RackMultipart20160428-4435-1u77ms3.jpg>, @original_filename="2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Sign up"}
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:43)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:44)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:45)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:46)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:47)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'yara@yahoo.com' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `name`, `avatar`, `gender`, `is_instructor`, `birth_date`, `created_at`, `updated_at`) VALUES ('yara@yahoo.com', '$2a$11$PJHzAWvv2BHjwJYuraH4Wurkeb2ItvMgTGHlCpJkLCLGEcFZHARpa', 'Yara Mohamed', '2.jpg', 'Female', 0, '1993-02-28', '2016-04-28 08:34:47', '2016-04-28 08:34:47')
+  [1m[36m (29.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2016-04-28 08:34:47', `current_sign_in_at` = '2016-04-28 08:34:47', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2016-04-28 08:34:47' WHERE `users`.`id` = 6[0m
+  [1m[35m (30.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 213ms (ActiveRecord: 60.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 10:34:47 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/courses/index" for 127.0.0.1 at 2016-04-28 10:34:52 +0200
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 10:34:54 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses/index" for 127.0.0.1 at 2016-04-28 10:34:55 +0200
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2016-04-28 10:34:57 +0200
+Processing by Users::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered users/registrations/edit.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 56ms (Views: 52.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 10:34:59 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 200 OK in 45ms (Views: 44.7ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2016-04-28 10:35:01 +0200
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"9WIcg6HgFXOSFEefaitn6kKVvT6JpEzXS87DQNAQHvKDeQga9uO743jg93LoKFYtJo3z/d7/2Z11mmNRFVx9sQ=="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 10:35:01 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 42ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-04-28 10:35:03 +0200
+Processing by Users::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 39ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-04-28 10:35:09 +0200
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gEY6ozuCS3UgvujsQVIyR8XYXZeJu8wujct5ZLkNYBMZOJChYntkgfIV03xdccHpzz4qfxRIOnelyOfoL/rklA==", "user"=>{"email"=>"ahmed@yahoo.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`email` = 'ahmed@yahoo.com'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2016-04-28 08:32:56', `current_sign_in_at` = '2016-04-28 08:35:09', `sign_in_count` = 12, `updated_at` = '2016-04-28 08:35:09' WHERE `users`.`id` = 5
+  [1m[36m (39.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 186ms (ActiveRecord: 41.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 10:35:09 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 10:35:24 +0200
+Processing by CoursesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered courses/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 44ms (Views: 42.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses/index" for 127.0.0.1 at 2016-04-28 10:35:25 +0200
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 200 OK in 57ms (Views: 55.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 10:35:27 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses/index" for 127.0.0.1 at 2016-04-28 10:35:48 +0200
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 10:35:52 +0200
+Processing by CoursesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered courses/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 48ms (Views: 45.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2016-04-28 10:35:53 +0200
+Processing by CoursesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered courses/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 46ms (Views: 43.9ms | ActiveRecord: 0.2ms)
