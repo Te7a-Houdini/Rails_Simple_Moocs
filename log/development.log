@@ -26789,3 +26789,989 @@ Started GET "/" for 127.0.0.1 at 2016-04-28 03:54:22 +0200
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (1.8ms)
 Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 03:55:46 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (637.8ms)
+Completed 200 OK in 719ms (Views: 710.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 03:55:46 +0200
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 03:55:46 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 03:55:46 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 03:55:46 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 03:55:46 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 03:55:46 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 03:55:46 +0200
+
+
+Started GET "/assets/style.self-f13ec302820051f4a1235ae3e127287f63de88ce0e6e2ea8e830c297640fca2a.css?body=1" for 127.0.0.1 at 2016-04-28 03:55:46 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 03:55:46 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 03:55:46 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 03:55:46 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 03:55:46 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 03:55:47 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 03:55:47 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 03:55:47 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 03:55:47 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 03:55:47 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 03:55:47 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 03:55:47 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 03:55:47 +0200
+
+
+Started GET "/assets/logo-d823076ef133ff8ccf00548ac6ba7b2e994546aba4b7ae521a6bf510843fca3a.jpg" for 127.0.0.1 at 2016-04-28 03:55:47 +0200
+
+
+Started GET "/assets/counter-bg-fd754b12d04fc1df26baead8516452fce63089aacef357449b921c573795a9c1.jpg" for 127.0.0.1 at 2016-04-28 03:55:47 +0200
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-04-28 03:55:48 +0200
+Processing by Users::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (1.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 86ms (Views: 60.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-04-28 03:55:59 +0200
+Processing by Users::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.4ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 59ms (Views: 40.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2016-04-28 03:56:01 +0200
+Processing by Users::RegistrationsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.8ms)
+  Rendered users/registrations/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 56ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-04-28 03:56:03 +0200
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oNFIVhQB/1IMnt55kGp9pppX+FehS/msMG+QNbAeKCLmKAltaQ4pYMcFfuVDv9a5rI2ZHk/dB9zOwud8PG/WOw==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"", "birth_date(1i)"=>"2016", "birth_date(2i)"=>"4", "birth_date(3i)"=>"28", "gender"=>"Male", "is_instructor"=>"0"}, "commit"=>"Sign up"}
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:43)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:44)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:45)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:46)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:47)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered users/shared/_links.html.erb (0.3ms)
+  Rendered users/registrations/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 71ms (Views: 54.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-04-28 03:56:51 +0200
+
+ArgumentError (Range unspecified. Specify the :in, :within, :maximum, :minimum, or :is option.):
+  app/models/user.rb:9:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  config/routes.rb:4:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.6ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.5ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/te7a/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-04-28 03:57:53 +0200
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lRpeH8WGhKEoV27KsLwt3NiuQfMT4+tpMMBG+MpSdArT4x8kuIlSk+PMzlZjaYbD7nQguv11FRnObTGxRiOKEw==", "user"=>{"email"=>"amer@yahoo.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>" ", "birth_date(1i)"=>"2016", "birth_date(2i)"=>"4", "birth_date(3i)"=>"28", "gender"=>"Male", "is_instructor"=>"0"}, "commit"=>"Sign up"}
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:43)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:44)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:45)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:46)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:47)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'amer@yahoo.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered users/shared/_links.html.erb (0.4ms)
+  Rendered users/registrations/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 222ms (Views: 45.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 03:57:53 +0200
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 03:57:53 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 03:57:53 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 03:57:53 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 03:57:53 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 03:57:53 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 03:57:53 +0200
+
+
+Started GET "/assets/style.self-f13ec302820051f4a1235ae3e127287f63de88ce0e6e2ea8e830c297640fca2a.css?body=1" for 127.0.0.1 at 2016-04-28 03:57:53 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 03:57:53 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 03:57:53 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 03:57:53 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 03:57:53 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 03:57:53 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 03:57:53 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 03:57:53 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 03:57:53 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 03:57:54 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 03:57:54 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 03:57:54 +0200
+
+
+Started GET "/assets/logo-d823076ef133ff8ccf00548ac6ba7b2e994546aba4b7ae521a6bf510843fca3a.jpg" for 127.0.0.1 at 2016-04-28 03:57:54 +0200
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-04-28 03:57:56 +0200
+Processing by Users::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.3ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 72ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2016-04-28 03:57:58 +0200
+Processing by Users::RegistrationsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.3ms)
+  Rendered users/registrations/new.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 64ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-04-28 03:58:01 +0200
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jXxqt5jM7GOnjrzoBCsa72PegD6WjRupjCfkGDRssufLhSuM5cM6UWwVHHTX/rHwVQThd3gb5dlyipNRuB1M/g==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"", "birth_date(1i)"=>"2016", "birth_date(2i)"=>"4", "birth_date(3i)"=>"28", "gender"=>"Male", "is_instructor"=>"0"}, "commit"=>"Sign up"}
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:43)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:44)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:45)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:46)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:47)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered users/shared/_links.html.erb (0.4ms)
+  Rendered users/registrations/new.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 77ms (Views: 62.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jXxqt5jM7GOnjrzoBCsa72PegD6WjRupjCfkGDRssufLhSuM5cM6UWwVHHTX/rHwVQThd3gb5dlyipNRuB1M/g==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"", "birth_date(1i)"=>"2016", "birth_date(2i)"=>"4", "birth_date(3i)"=>"28", "gender"=>"Male", "is_instructor"=>"0"}, "commit"=>"Sign up"}
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:43)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:44)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:45)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:46)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:47)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered users/shared/_links.html.erb (0.7ms)
+  Rendered users/registrations/new.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 89ms (Views: 52.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/style.self-f13ec302820051f4a1235ae3e127287f63de88ce0e6e2ea8e830c297640fca2a.css?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 03:58:17 +0200
+
+
+Started POST "/users" for 127.0.0.1 at 2016-04-28 03:58:19 +0200
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5IhuDGZBftHy8jFyGAYMG9KX75laWZbefCHieYP/9UmicS83G06o4zlpke7L06cE5E2O0LTPaK6CjJUwD44LUA==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"", "birth_date(1i)"=>"2016", "birth_date(2i)"=>"4", "birth_date(3i)"=>"28", "gender"=>"Male", "is_instructor"=>"0"}, "commit"=>"Sign up"}
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:43)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:44)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:45)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:46)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:47)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered users/shared/_links.html.erb (0.5ms)
+  Rendered users/registrations/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 65ms (Views: 47.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-04-28 03:58:46 +0200
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"738ds5CZSmfdi0zF6zHessXq6fC++VmVYicVTsUmkDKphlyI7ZacVRYQ7Fk45HWt8zCIuVBvp+WcimIHSVduKw==", "user"=>{"email"=>"amer@yahoo.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Amer Mohamed", "birth_date(1i)"=>"2016", "birth_date(2i)"=>"4", "birth_date(3i)"=>"28", "gender"=>"Male", "is_instructor"=>"1", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fc94c4130f8 @tempfile=#<Tempfile:/tmp/RackMultipart20160428-10719-846ddp.jpg>, @original_filename="3.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"3.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Sign up"}
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:43)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:44)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:45)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:46)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:47)
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'amer@yahoo.com' LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `name`, `avatar`, `gender`, `is_instructor`, `birth_date`, `created_at`, `updated_at`) VALUES ('amer@yahoo.com', '$2a$11$5s7jMrRK4gIv5Un19iXLFuZj5rF3uOq3T/BZcaYEwXFGHP/I1ULlu', 'Amer Mohamed', '3.jpg', 'Male', 1, '2016-04-28', '2016-04-28 01:58:46', '2016-04-28 01:58:46')[0m
+  [1m[35m (38.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2016-04-28 01:58:46', `current_sign_in_at` = '2016-04-28 01:58:46', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2016-04-28 01:58:46' WHERE `users`.`id` = 3
+  [1m[36m (37.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 266ms (ActiveRecord: 77.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 03:58:46 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 48ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2016-04-28 03:58:50 +0200
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"bPGHw8+7ej7aMECccndZBHUJXQKOrKPxZaa+15N8QdsqCMb4srSsDBGr4AChovIbQ9M8S2A6XYGbC8meHw2/wg=="}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 03:58:50 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-04-28 04:00:05 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Users::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (1.3ms)
+  Rendered users/sessions/new.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 742ms (Views: 704.0ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/style.self-f13ec302820051f4a1235ae3e127287f63de88ce0e6e2ea8e830c297640fca2a.css?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/assets/logo-d823076ef133ff8ccf00548ac6ba7b2e994546aba4b7ae521a6bf510843fca3a.jpg" for 127.0.0.1 at 2016-04-28 04:00:06 +0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2016-04-28 04:00:08 +0200
+Processing by Users::RegistrationsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.5ms)
+  Rendered users/registrations/new.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 72ms (Views: 70.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-04-28 04:00:29 +0200
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qH8vqtIuxu0KvBWL/K8koVy+cTEtDSFavNQKOSvcUNKFChI1gP9+vSjLQEW06QKic2JzS/jXr9+YSvDBFW5mpA==", "user"=>{"email"=>"asdfasdf@yahoo.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"jkhnjkadsf", "birth_date(1i)"=>"2016", "birth_date(2i)"=>"4", "birth_date(3i)"=>"28", "gender"=>"Male", "is_instructor"=>"0", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fd0b4f39ff8 @tempfile=#<Tempfile:/tmp/RackMultipart20160428-10880-z0n1uf.rb>, @original_filename="inherited.rb", @content_type="application/x-ruby", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"inherited.rb\"\r\nContent-Type: application/x-ruby\r\n">}, "commit"=>"Sign up"}
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:43)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:44)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:45)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:46)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:47)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'asdfasdf@yahoo.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered users/shared/_links.html.erb (0.4ms)
+  Rendered users/registrations/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 215ms (Views: 47.2ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-04-28 04:00:53 +0200
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qH8vqtIuxu0KvBWL/K8koVy+cTEtDSFavNQKOSvcUNKFChI1gP9+vSjLQEW06QKic2JzS/jXr9+YSvDBFW5mpA==", "user"=>{"email"=>"asdfasdf@yahoo.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"jkhnjkadsf", "birth_date(1i)"=>"2016", "birth_date(2i)"=>"4", "birth_date(3i)"=>"28", "gender"=>"Male", "is_instructor"=>"0", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fd0b093fae8 @tempfile=#<Tempfile:/tmp/RackMultipart20160428-10880-1jlbxrk.rb>, @original_filename="inherited.rb", @content_type="application/x-ruby", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"inherited.rb\"\r\nContent-Type: application/x-ruby\r\n">}, "commit"=>"Sign up"}
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:43)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:44)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:45)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:46)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:47)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'asdfasdf@yahoo.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered users/shared/_links.html.erb (0.2ms)
+  Rendered users/registrations/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 195ms (Views: 46.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 04:00:53 +0200
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 04:00:53 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 04:00:53 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 04:00:53 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 04:00:53 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 04:00:53 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 04:00:53 +0200
+
+
+Started GET "/assets/style.self-f13ec302820051f4a1235ae3e127287f63de88ce0e6e2ea8e830c297640fca2a.css?body=1" for 127.0.0.1 at 2016-04-28 04:00:53 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:53 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:53 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:53 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:53 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:53 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:53 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:53 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:53 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:53 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:54 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:54 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 04:00:54 +0200
+
+
+Started POST "/users" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qH8vqtIuxu0KvBWL/K8koVy+cTEtDSFavNQKOSvcUNKFChI1gP9+vSjLQEW06QKic2JzS/jXr9+YSvDBFW5mpA==", "user"=>{"email"=>"asdfasdf@yahoo.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"jkhnjkadsf", "birth_date(1i)"=>"2016", "birth_date(2i)"=>"4", "birth_date(3i)"=>"28", "gender"=>"Male", "is_instructor"=>"0", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fd0b0ad8c60 @tempfile=#<Tempfile:/tmp/RackMultipart20160428-10880-1cuamiu.rb>, @original_filename="inherited.rb", @content_type="application/x-ruby", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"inherited.rb\"\r\nContent-Type: application/x-ruby\r\n">}, "commit"=>"Sign up"}
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:43)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:44)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:45)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:46)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.1.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_sign_up_params at /home/te7a/Desktop/Rails_Project/simple_mooc/app/controllers/users/registrations_controller.rb:47)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'asdfasdf@yahoo.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered users/shared/_links.html.erb (0.4ms)
+  Rendered users/registrations/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 207ms (Views: 49.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-9eb2eaea3fc56960ffc582068a1aed5f3a8c995abfd2e2f9eb85af00b46394e6.css?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-7d7afb01c3920e71bb2c65dc9c4127278e420c8fac4f2129f22b2437b8233a0b.css?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/bootstrap.self-cb3310ffd4e905a3df4a5790d0374558973bc8ad5a4c8cb9e7ca5af28bd51df2.css?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/font-awesome.self-70958b3420389ba412ce680e58966aaea994bbf1575f685480c07516041b2d2d.css?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/slick.self-3b3654b9908bfc7706e8763450481c92c82c0896ca8d931a98108bd7fcd1d40d.css?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/animate.self-fea0ded26e143f826bc21f4dd76856675b5d1f31eb180436449a03e52401c21b.css?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/default.self-11368d95ad9397921643e48f2f2f435b92d4762e9263c1cd3f7121b4a9ffc912.css?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/style.self-f13ec302820051f4a1235ae3e127287f63de88ce0e6e2ea8e830c297640fca2a.css?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/slick.self-e6e08346b02ee59dacf02bcf91f549879fcb4f516cb05f3dec98a125621dec27.js?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/waypoints.self-709894308aec8a9e8610853f45c982909a031668271b1c184adf20e8418c451e.js?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/jquery.counterup.self-11206376e979865f70381557586dcc311c7ef698813a69eccf046bcb24269519.js?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/jquery.mixitup.self-b90cb72b5361e5fec0b1bddbf1f2899f36a0678e0f1735f1d842d625a08418f6.js?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-19ef9084db95baffa4fcf024a78d9f9f0063d12f1406d104cbddc8ca72051866.js?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/wow.self-f11c99e3d36695925003b17b9faaecf2339bd1a9b045bad6da6bd4a7f562557a.js?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/custom.self-f84a55d132eca8ef24fe2a904ffc9d19646a53a61cac278ba94d52a56ecfbb6e.js?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for 127.0.0.1 at 2016-04-28 04:01:24 +0200
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2016-04-28 04:01:31 +0200
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"LwF7UaGDhMAbHzna6JLSOo49GrcV0AkZFy/+s5rLn7MCdEbO81I8kDlobBSg1PQ5oeEYzcAKh5wzsQRLpHmpxQ=="}
+Redirected to http://localhost:3000/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 04:01:31 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.0ms)
