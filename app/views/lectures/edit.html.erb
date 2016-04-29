@@ -1,2 +1,48 @@
-<h1>Lectures#edit</h1>
-<p>Find me in app/views/lectures/edit.html.erb</p>
+<section id="contact">
+  <div class="col-md-12 col-sm-6 col-xs-12">
+    <div class="contact-right wow fadeInRight">
+      <h1>Edit Lecture</h1>
+
+      <%= form_for(@lecture,class: 'contact-form') do |f|%>
+
+
+          <ul>
+            <% @lecture.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end%>
+          </ul>
+
+          <hr>
+
+          <div class="form-group">
+            <%= f.label :title %><br />
+            <%= f.text_field :title,class: 'form-control' ,autofocus: true %>
+          </div>
+
+
+
+          <div class="form-group">
+            <%= f.label :content %><br />
+            <%= f.cktext_area :content,class: 'form-control'  %>
+          </div>
+
+
+          <div class="form-group">
+            <%= f.label :image , "Upload a Lecture Image" %><br />
+            <%= f.file_field :image,class: 'form-control' %>
+          </div>
+
+
+          <div class="form-group">
+            <%= f.label :attachement, "Upload Attachements" %><br />
+            <%= f.file_field :attachement ,class: 'form-control' %>
+          </div>
+
+
+          <%= f.submit "Edit Lecture" ,class: 'btn btn-info' %>
+
+      <% end %>
+
+    </div>
+  </div>
+</section>

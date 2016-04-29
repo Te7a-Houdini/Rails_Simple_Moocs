@@ -17,7 +17,7 @@ Rails.application.routes.draw do
   post 'unlike/:lecture_id' => 'lectures#unlike'
   post 'spam/:lecture_id' => 'lectures#spam'
   post 'unspam/:lecture_id' => 'lectures#unspam'
-
+  get 'lectures/download'
   mount Ckeditor::Engine => '/ckeditor'
   get 'courses/index'
 

@@ -31,11 +31,17 @@ class LecturesController < ApplicationController
   end
 
   def update
+    @lecture = Lecture.find_by(:id => params[:id])
 
+    if @lecture.update_attributes(update_params)
+      redirect_to courses_index_path
+    else
+      render
+    end
   end
 
   def edit
-
+    @lecture =Lecture.find_by(:id => params[:id])
   end
 
   def destroy
@@ -77,10 +83,20 @@ class LecturesController < ApplicationController
   end
 
 
+  def download
+    my_file = params[:file]
+    send_file my_file
+  end
+
+
   private
   def require_params
 
     params.require(:lecture).permit(:title,:content,:image,:course_id,:attachement);
   end
 
+
+  def update_params
+    params.require(:lecture).permit(:title,:content,:image,:attachement)
+  end
 end

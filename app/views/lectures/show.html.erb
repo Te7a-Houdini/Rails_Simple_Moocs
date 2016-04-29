@@ -35,7 +35,11 @@
 
                         <% end %>
 
-                        <h2><%= @lecture.title %></h2>
+                    <% if @lecture.attachement.file %>
+                    <%= link_to "Download Attachement ", lectures_download_path(:file => @lecture.attachement.file.path),class: 'btn btn-default' %>
+                        <% end %>
+                    
+                    <h2><%= @lecture.title %></h2>
 
                   </div>
                   <figure>
@@ -81,12 +85,14 @@
   var unlike = $('#unlike');
   var spam = $('#spam');
   var unspam = $('#unspam');
+
   var lecture_id = <%= @lecture.id %>
 
 like.on('click',like_func);
 unlike.on('click',unlike_func);
 spam.on('click',spam_func);
 unspam.on('click',unspam_func);
+download.on('click',download_func);
 
 function like_func () {
   $.ajax({url:'/like/'+lecture_id,method:'post'});

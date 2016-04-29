@@ -39,6 +39,11 @@
                <span class="fa fa-comment">18 Comments </span>
                    <span class="fa fa-thumbs-o-up"><%= lecture.get_likes.size %> Likes</span>
                 </div>
+
+                  <% if lecture.user_id == current_user.id %>
+                  <%=link_to "Edit Lecture",edit_lecture_path(lecture.id),class: 'btn btn-info',data: { 'no-turbolink'=>true} %>
+
+                  <% end %>
                 </article>
 
                 <% end %>

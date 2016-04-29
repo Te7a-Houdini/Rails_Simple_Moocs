@@ -51,7 +51,7 @@
 
               <% if current_user.is_instructor == true%>
                   <li><%= link_to "New Course" , courses_new_path %></li>
-                  <li><%= link_to "New Lecture" , lectures_new_path %></li>
+                  <li><%= link_to "New Lecture" , lectures_new_path ,data: { 'no-turbolink'=>true} %></li>
               <% end %>
 
               <li><%= link_to "Update Avatar" , edit_user_registration_path%></li>
