@@ -8,5 +8,6 @@ ActiveAdmin.register Course do
 
     actions
   end
+  permit_params :title, :content, :user_id,:image
 
 end
