@@ -38,7 +38,7 @@
                     <% if @lecture.attachement.file %>
                     <%= link_to "Download Attachement ", lectures_download_path(:file => @lecture.attachement.file.path),class: 'btn btn-default' %>
                         <% end %>
-                    
+
                     <h2><%= @lecture.title %></h2>
 
                   </div>
@@ -52,21 +52,10 @@
                   <%=@lecture.content.html_safe %>
                   </div>
                 </article>
-                <!--<div class="blog-comment">-->
-                  <!--<h2>Post a comment</h2>-->
-                  <!--<form class="comment-form" action="">-->
-                    <!--<div class="form-group">-->
-                      <!--<input type="text" placeholder="Name" class="form-control">-->
-                    <!--</div>-->
-                    <!--<div class="form-group">-->
-                      <!--<input type="email" placeholder="Enter Email" class="form-control">-->
-                    <!--</div>-->
-                    <!--<div class="form-group">-->
-                      <!--<textarea class="form-control"></textarea>-->
-                    <!--</div>-->
-                    <!--<button class="button button-default" data-text="Comment" type="submit"><span>Comment</span></button>-->
-                  <!--</form>-->
-                <!--</div>-->
+                <div   style="  font-size: 20px;" id ='comments-container' >
+
+
+                </div>
                 <!-- End single blog post -->
               </div>
             </div>
@@ -92,7 +81,7 @@ like.on('click',like_func);
 unlike.on('click',unlike_func);
 spam.on('click',spam_func);
 unspam.on('click',unspam_func);
-download.on('click',download_func);
+
 
 function like_func () {
   $.ajax({url:'/like/'+lecture_id,method:'post'});
@@ -117,6 +106,101 @@ function unspam_func () {
   spam.show();
   unspam.hide();
 }
+
+  <%
+   @user_image = " "
+    @user_name = " "
+    @read_only = "true"
+    @user_id = "0"
+   %>
+
+  <% if current_user %>
+  <%
+      @user_image = current_user.avatar
+      @user_name = current_user.name
+      @read_only = "false"
+      @user_id = current_user.id
+  %>
+  <% end%>
+  $("#comments-container").comments({
+    profilePictureURL:' <%= @user_image %>',
+    newestText: '',
+    oldestText: '',
+
+    popularText: '',
+    sendText: 'Comment',
+
+    editText: 'Modify',
+    youText: '<%=@user_name%>',
+    highlightColor: 'green',
+    enableReplying: false,
+    enableUpvoting: false,
+    postCommentOnEnter: true,
+    roundProfilePictures:true,
+    readOnly:<%= @read_only %>,
+
+    getComments: function(success, error) {
+
+      $.ajax({
+        type: 'get',
+        url: '/comments/getComments',
+        data: {'lecture_id':lecture_id,'user_id':<%= @user_id %>}
+        ,
+        success: function(commentsArray) {
+
+
+
+
+          success(commentsArray)
+        }
+
+      });
+
+    },
+
+
+    postComment: function(commentJSON, success) {
+
+      commentJSON.id= <%= @user_id %>;
+      commentJSON.parent=lecture_id;
+
+      $.ajax({
+        type: 'post',
+        url: '/comments/postComment',
+        data: commentJSON,
+        success: function(comment) {
+
+          success(comment)
+        }
+
+      });
+    },
+    putComment: function(commentJSON, success ) {
+
+      $.ajax({
+        type: 'post',
+        url: '/comments/putComment' ,
+        data: commentJSON,
+        success: function(comment) {
+
+          success(comment);
+        }
+
+      });
+    },
+
+    deleteComment: function(commentJSON, success, error) {
+      $.ajax({
+        type: 'post',
+        url: '/comments/deleteComment',
+        data: commentJSON,
+        success:success,
+        error: error
+      });
+    }
+
+
+  });
 
 
 

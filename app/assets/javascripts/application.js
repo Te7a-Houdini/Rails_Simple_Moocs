@@ -25,3 +25,4 @@
 //= require wow.js
 //= require custom.js
 //= require ckeditor/init
+//= require jquery-comments.js

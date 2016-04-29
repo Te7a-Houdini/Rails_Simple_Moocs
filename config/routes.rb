@@ -27,7 +27,10 @@ Rails.application.routes.draw do
 
   get 'home/index'
 
-
+  post 'comments/postComment'
+  get 'comments/getComments'
+  post 'comments/putComment'
+  post 'comments/deleteComment'
   devise_for :users, controllers: { sessions: "users/sessions" , registrations: "users/registrations" }
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
