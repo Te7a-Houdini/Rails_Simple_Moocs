@@ -22,6 +22,12 @@ class LecturesController < ApplicationController
     lecture_id = params[:lecture_id]
     @lecture =Lecture.find_by(:id => lecture_id)
 
+    if @lecture.find_votes_for(:vote_scope => 'spam').size >= 2
+
+      render 'spamed_page'
+
+    end
+
   end
 
   def update
@@ -65,6 +71,11 @@ class LecturesController < ApplicationController
     @lecture = Lecture.find_by(:id => params[:lecture_id])
     current_user.dislikes @lecture ,:vote_scope => 'spam'
   end
+
+  def spamed_page
+
+  end
+
 
   private
   def require_params
