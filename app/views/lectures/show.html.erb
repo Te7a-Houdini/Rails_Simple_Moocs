@@ -1,2 +1,118 @@
-<h1>Lectures#show</h1>
-<p>Find me in app/views/lectures/show.html.erb</p>
+<!-- Start blog section -->
+<section id="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="blog-area">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <div class="blog-left blog-details">
+                <!-- Start single blog post -->
+                <article class="single-from-blog">
+                  <div class="blog-title">
+                    <% if current_user %>
+
+
+                        <% if current_user.voted_up_on? @lecture %>
+                            <input id="unlike" type="button" value="UnLike" class="btn btn-warning">
+                            <input style="display: none" id="like" type="button" value="Like" class="btn btn-primary">
+                            <% else %>
+                            <input id="like" type="button" value="Like" class="btn btn-primary">
+                            <input style="display:none" id="unlike" type="button" value="UnLike" class="btn btn-warning">
+                        <% end %>
+
+
+                        <% if current_user.voted_up_on? @lecture ,:vote_scope => 'spam' %>
+                            <input id="unspam" type="button" value="UnSpam" class="btn btn-success">
+                            <input style="display: none" id="spam" type="button" value="Mark As Spam" class="btn btn-danger">
+                        <% else %>
+                            <input id="spam" type="button" value="Mark As Spam" class="btn btn-danger">
+                            <input style="display: none" id="unspam" type="button" value="UnSpam" class="btn btn-success">
+                        <% end %>
+
+
+
+
+                        <% end %>
+
+                        <h2><%= @lecture.title %></h2>
+
+                  </div>
+                  <figure>
+                    <%= image_tag(@lecture.image)%>
+                  </figure>
+                  <div class="blog-details-content">
+
+
+
+                  <%=@lecture.content.html_safe %>
+                  </div>
+                </article>
+                <!--<div class="blog-comment">-->
+                  <!--<h2>Post a comment</h2>-->
+                  <!--<form class="comment-form" action="">-->
+                    <!--<div class="form-group">-->
+                      <!--<input type="text" placeholder="Name" class="form-control">-->
+                    <!--</div>-->
+                    <!--<div class="form-group">-->
+                      <!--<input type="email" placeholder="Enter Email" class="form-control">-->
+                    <!--</div>-->
+                    <!--<div class="form-group">-->
+                      <!--<textarea class="form-control"></textarea>-->
+                    <!--</div>-->
+                    <!--<button class="button button-default" data-text="Comment" type="submit"><span>Comment</span></button>-->
+                  <!--</form>-->
+                <!--</div>-->
+                <!-- End single blog post -->
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End blog section -->
+
+
+<script>
+  var like = $('#like');
+  var unlike = $('#unlike');
+  var spam = $('#spam');
+  var unspam = $('#unspam');
+  var lecture_id = <%= @lecture.id %>
+
+like.on('click',like_func);
+unlike.on('click',unlike_func);
+spam.on('click',spam_func);
+unspam.on('click',unspam_func);
+
+function like_func () {
+  $.ajax({url:'/like/'+lecture_id,method:'post'});
+  unlike.show();
+  like.hide();
+}
+
+function unlike_func () {
+    $.ajax({url:'/unlike/'+lecture_id,method:'post'});
+  like.show();
+  unlike.hide();
+}
+
+function spam_func() {
+  $.ajax({url:'/spam/'+lecture_id,method:'post'});
+  unspam.show();
+  spam.hide();
+}
+
+function unspam_func () {
+  $.ajax({url:'/unspam/'+lecture_id,method:'post'});
+  spam.show();
+  unspam.hide();
+}
+
+
+
+
+</script>

@@ -21,7 +21,8 @@ gem 'ckeditor', github: 'galetahub/ckeditor'
 gem 'carrierwave'
 
 gem 'mini_magick'
-
+gem 'font-awesome-rails'
+gem 'font-awesome-sass', '~> 4.5.0'
 ################
 
 

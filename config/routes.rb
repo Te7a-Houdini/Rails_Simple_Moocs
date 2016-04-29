@@ -13,7 +13,10 @@ Rails.application.routes.draw do
 
   get 'lectures/show_lectures/:course_id' => 'lectures#show_course_lectures'
 
-
+  post 'like/:lecture_id' => 'lectures#like'
+  post 'unlike/:lecture_id' => 'lectures#unlike'
+  post 'spam/:lecture_id' => 'lectures#spam'
+  post 'unspam/:lecture_id' => 'lectures#unspam'
 
   mount Ckeditor::Engine => '/ckeditor'
   get 'courses/index'

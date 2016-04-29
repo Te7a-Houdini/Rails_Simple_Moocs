@@ -14,4 +14,6 @@ class User < ActiveRecord::Base
 
   has_many :courses
   has_many :lectures
+
+  acts_as_voter
 end

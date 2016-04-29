@@ -9,4 +9,5 @@ class Lecture < ActiveRecord::Base
   mount_uploader :image, LectureImagesUploader
   mount_uploader :attachement, LectureAttachementsUploader
 
+  acts_as_votable
 end
