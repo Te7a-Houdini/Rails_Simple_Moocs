@@ -11,6 +11,10 @@ Rails.application.routes.draw do
 
   get 'lectures/destroy'
 
+  get 'lectures/show_lectures/:course_id' => 'lectures#show_course_lectures'
+
+
+
   mount Ckeditor::Engine => '/ckeditor'
   get 'courses/index'
 
@@ -19,6 +23,7 @@ Rails.application.routes.draw do
   get 'courses/create'
 
   get 'home/index'
+
 
   devise_for :users, controllers: { sessions: "users/sessions" , registrations: "users/registrations" }
   devise_for :admin_users, ActiveAdmin::Devise.config

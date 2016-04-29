@@ -19,15 +19,24 @@ class LecturesController < ApplicationController
   end
 
   def show
+
   end
 
   def update
+
   end
 
   def edit
+
   end
 
   def destroy
+
+  end
+
+  def show_course_lectures
+
+
   end
 
   private
