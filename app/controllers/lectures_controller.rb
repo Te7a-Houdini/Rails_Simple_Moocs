@@ -36,12 +36,17 @@ class LecturesController < ApplicationController
     if @lecture.update_attributes(update_params)
       redirect_to courses_index_path
     else
-      render
+      render 'edit'
     end
   end
 
   def edit
     @lecture =Lecture.find_by(:id => params[:id])
+    if @lecture.user != current_user
+
+      redirect_to courses_index_path
+    end
+
   end
 
   def destroy
