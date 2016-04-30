@@ -380,3 +380,360 @@ CoursesControllerTest: test_should_get_new
 Processing by CoursesController#new as HTML
 Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
   [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('test1@yahoo.com', '2016-04-30 07:13:32', '2016-04-30 07:13:32', 980190962)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `lectures`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:13:32', '2016-04-30 07:13:32', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:13:32', '2016-04-30 07:13:32', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `admin_users`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `admin_users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('tests1@yahoo.com', '2016-04-30 07:13:32', '2016-04-30 07:13:32', 980190962)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `courses`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('first title', 'first image', 1, '2016-04-30 07:13:32', '2016-04-30 07:13:32', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('second title', 'second image', 2, '2016-04-30 07:13:32', '2016-04-30 07:13:32', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:13:32', '2016-04-30 07:13:32', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:13:32', '2016-04-30 07:13:32', 298486374)[0m
+  [1m[35m (52.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+-----------------------------------------
+HomeControllerTest: test_should_get_index
+-----------------------------------------
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (8818.1ms)
+Completed 500 Internal Server Error in 8833ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('test1@yahoo.com', '2016-04-30 07:16:12', '2016-04-30 07:16:12', 980190962)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `lectures`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:16:12', '2016-04-30 07:16:12', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:16:12', '2016-04-30 07:16:12', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `admin_users`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `admin_users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('tests1@yahoo.com', '2016-04-30 07:16:12', '2016-04-30 07:16:12', 980190962)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `courses`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('first title', 'first image', 1, '2016-04-30 07:16:12', '2016-04-30 07:16:12', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('second title', 'second image', 2, '2016-04-30 07:16:12', '2016-04-30 07:16:12', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:16:12', '2016-04-30 07:16:12', 980190962)
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:16:12', '2016-04-30 07:16:12', 298486374)[0m
+  [1m[35m (77.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+-----------------------------------------
+HomeControllerTest: test_should_get_index
+-----------------------------------------
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (504.6ms)
+Completed 200 OK in 516ms (Views: 516.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('test1@yahoo.com', '2016-04-30 07:18:53', '2016-04-30 07:18:53', 980190962)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `lectures`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:18:53', '2016-04-30 07:18:53', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:18:53', '2016-04-30 07:18:53', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `admin_users`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `admin_users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('tests1@yahoo.com', '2016-04-30 07:18:53', '2016-04-30 07:18:53', 980190962)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `courses`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('first title', 'first image', 1, '2016-04-30 07:18:53', '2016-04-30 07:18:53', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('second title', 'second image', 2, '2016-04-30 07:18:53', '2016-04-30 07:18:53', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:18:53', '2016-04-30 07:18:53', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:18:53', '2016-04-30 07:18:53', 298486374)[0m
+  [1m[35m (50.8ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+--------------------------
+CourseTest: test_the_truth
+--------------------------
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.7ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('test1@yahoo.com', '2016-04-30 07:19:16', '2016-04-30 07:19:16', 980190962)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `lectures`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:19:16', '2016-04-30 07:19:16', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:19:16', '2016-04-30 07:19:16', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `admin_users`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `admin_users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('tests1@yahoo.com', '2016-04-30 07:19:16', '2016-04-30 07:19:16', 980190962)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `courses`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('first title', 'first image', 1, '2016-04-30 07:19:16', '2016-04-30 07:19:16', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('second title', 'second image', 2, '2016-04-30 07:19:16', '2016-04-30 07:19:16', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:19:16', '2016-04-30 07:19:16', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:19:16', '2016-04-30 07:19:16', 298486374)[0m
+  [1m[35m (74.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+--------------------------
+CourseTest: test_the_truth
+--------------------------
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.4ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('test1@yahoo.com', '2016-04-30 07:19:41', '2016-04-30 07:19:41', 980190962)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `lectures`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:19:41', '2016-04-30 07:19:41', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:19:41', '2016-04-30 07:19:41', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `admin_users`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `admin_users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('tests1@yahoo.com', '2016-04-30 07:19:41', '2016-04-30 07:19:41', 980190962)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM `courses`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('first title', 'first image', 1, '2016-04-30 07:19:41', '2016-04-30 07:19:41', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('second title', 'second image', 2, '2016-04-30 07:19:41', '2016-04-30 07:19:41', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:19:41', '2016-04-30 07:19:41', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:19:41', '2016-04-30 07:19:41', 298486374)[0m
+  [1m[35m (40.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+--------------------------
+CourseTest: test_the_truth
+--------------------------
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('test1@yahoo.com', '2016-04-30 07:21:20', '2016-04-30 07:21:20', 980190962)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `lectures`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:21:20', '2016-04-30 07:21:20', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:21:20', '2016-04-30 07:21:20', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `admin_users`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `admin_users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('tests1@yahoo.com', '2016-04-30 07:21:20', '2016-04-30 07:21:20', 980190962)[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `courses`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('first title', 'first image', 1, '2016-04-30 07:21:20', '2016-04-30 07:21:20', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('second title', 'second image', 2, '2016-04-30 07:21:20', '2016-04-30 07:21:20', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:21:20', '2016-04-30 07:21:20', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:21:20', '2016-04-30 07:21:20', 298486374)[0m
+  [1m[35m (57.8ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+--------------------------
+CourseTest: test_the_truth
+--------------------------
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `courses` (`title`, `created_at`, `updated_at`) VALUES ('a new course', '2016-04-30 07:21:20', '2016-04-30 07:21:20')
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (31.9ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('test1@yahoo.com', '2016-04-30 07:22:03', '2016-04-30 07:22:03', 980190962)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `lectures`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:22:03', '2016-04-30 07:22:03', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:22:03', '2016-04-30 07:22:03', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `admin_users`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `admin_users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('tests1@yahoo.com', '2016-04-30 07:22:03', '2016-04-30 07:22:03', 980190962)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `courses`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('first title', 'first image', 1, '2016-04-30 07:22:03', '2016-04-30 07:22:03', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('second title', 'second image', 2, '2016-04-30 07:22:03', '2016-04-30 07:22:03', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:22:03', '2016-04-30 07:22:03', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:22:03', '2016-04-30 07:22:03', 298486374)[0m
+  [1m[35m (38.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+--------------------------
+CourseTest: test_the_truth
+--------------------------
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('test1@yahoo.com', '2016-04-30 07:23:22', '2016-04-30 07:23:22', 980190962)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `lectures`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:23:22', '2016-04-30 07:23:22', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:23:22', '2016-04-30 07:23:22', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `admin_users`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `admin_users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('tests1@yahoo.com', '2016-04-30 07:23:22', '2016-04-30 07:23:22', 980190962)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `courses`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('first title', 'first image', 1, '2016-04-30 07:23:22', '2016-04-30 07:23:22', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('second title', 'second image', 2, '2016-04-30 07:23:22', '2016-04-30 07:23:22', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:23:22', '2016-04-30 07:23:22', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:23:22', '2016-04-30 07:23:22', 298486374)[0m
+  [1m[35m (41.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+-----------------------------------------
+HomeControllerTest: test_should_get_index
+-----------------------------------------
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (517.8ms)
+Completed 200 OK in 535ms (Views: 534.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('test1@yahoo.com', '2016-04-30 07:25:48', '2016-04-30 07:25:48', 980190962)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `lectures`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:25:48', '2016-04-30 07:25:48', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:25:48', '2016-04-30 07:25:48', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `admin_users`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `admin_users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('tests1@yahoo.com', '2016-04-30 07:25:48', '2016-04-30 07:25:48', 980190962)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `courses`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('first title', 'first image', 1, '2016-04-30 07:25:48', '2016-04-30 07:25:48', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('second title', 'second image', 2, '2016-04-30 07:25:48', '2016-04-30 07:25:48', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:25:48', '2016-04-30 07:25:48', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:25:48', '2016-04-30 07:25:48', 298486374)[0m
+  [1m[35m (67.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+---------------------------------------------
+CoursesControllerTest: test_should_get_create
+---------------------------------------------
+Processing by CoursesController#create as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+--------------------------------------------
+CoursesControllerTest: test_should_get_index
+--------------------------------------------
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.4ms)[0m  [1mSELECT `courses`.* FROM `courses`[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  Rendered courses/index.html.erb within layouts/application (16.9ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.9ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.7ms)[0m  BEGIN
+------------------------------------------
+CoursesControllerTest: test_should_get_new
+------------------------------------------
+Processing by CoursesController#new as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('test1@yahoo.com', '2016-04-30 07:27:23', '2016-04-30 07:27:23', 980190962)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `lectures`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:27:23', '2016-04-30 07:27:23', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:27:23', '2016-04-30 07:27:23', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `admin_users`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `admin_users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('tests1@yahoo.com', '2016-04-30 07:27:23', '2016-04-30 07:27:23', 980190962)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `courses`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('first title', 'first image', 1, '2016-04-30 07:27:23', '2016-04-30 07:27:23', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('second title', 'second image', 2, '2016-04-30 07:27:23', '2016-04-30 07:27:23', 298486374)
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:27:23', '2016-04-30 07:27:23', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:27:23', '2016-04-30 07:27:23', 298486374)[0m
+  [1m[35m (40.7ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+-----------------------------------------
+HomeControllerTest: test_should_get_index
+-----------------------------------------
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (505.4ms)
+Completed 200 OK in 517ms (Views: 516.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('test1@yahoo.com', '2016-04-30 07:28:13', '2016-04-30 07:28:13', 980190962)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `lectures`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:28:13', '2016-04-30 07:28:13', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:28:13', '2016-04-30 07:28:13', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `admin_users`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `admin_users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('tests1@yahoo.com', '2016-04-30 07:28:13', '2016-04-30 07:28:13', 980190962)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `courses`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('first title', 'first image', 1, '2016-04-30 07:28:13', '2016-04-30 07:28:13', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('second title', 'second image', 2, '2016-04-30 07:28:13', '2016-04-30 07:28:13', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:28:13', '2016-04-30 07:28:13', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:28:13', '2016-04-30 07:28:13', 298486374)[0m
+  [1m[35m (56.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+-----------------------------------------
+HomeControllerTest: test_should_get_index
+-----------------------------------------
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (512.7ms)
+Completed 200 OK in 525ms (Views: 524.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.4ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('test1@yahoo.com', '2016-04-30 07:28:30', '2016-04-30 07:28:30', 980190962)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `lectures`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:28:30', '2016-04-30 07:28:30', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:28:30', '2016-04-30 07:28:30', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM `admin_users`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `admin_users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('tests1@yahoo.com', '2016-04-30 07:28:30', '2016-04-30 07:28:30', 980190962)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM `courses`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('first title', 'first image', 1, '2016-04-30 07:28:30', '2016-04-30 07:28:30', 980190962)[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('second title', 'second image', 2, '2016-04-30 07:28:30', '2016-04-30 07:28:30', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:28:30', '2016-04-30 07:28:30', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:28:30', '2016-04-30 07:28:30', 298486374)[0m
+  [1m[35m (44.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+-----------------------------------------
+HomeControllerTest: test_should_get_index
+-----------------------------------------
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (560.1ms)
+Completed 200 OK in 576ms (Views: 575.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('test1@yahoo.com', '2016-04-30 07:28:50', '2016-04-30 07:28:50', 980190962)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `lectures`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:28:50', '2016-04-30 07:28:50', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `lectures` (`content`, `attachement`, `title`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 'MyString', 'MyString', 'MyString', '2016-04-30 07:28:50', '2016-04-30 07:28:50', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `admin_users`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `admin_users` (`email`, `created_at`, `updated_at`, `id`) VALUES ('tests1@yahoo.com', '2016-04-30 07:28:50', '2016-04-30 07:28:50', 980190962)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `courses`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('first title', 'first image', 1, '2016-04-30 07:28:50', '2016-04-30 07:28:50', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `courses` (`title`, `image`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('second title', 'second image', 2, '2016-04-30 07:28:50', '2016-04-30 07:28:50', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:28:50', '2016-04-30 07:28:50', 980190962)
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `comments` (`content`, `created_at`, `updated_at`, `id`) VALUES ('MyString', '2016-04-30 07:28:50', '2016-04-30 07:28:50', 298486374)[0m
+  [1m[35m (42.3ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+-----------------------------------------
+HomeControllerTest: test_should_get_index
+-----------------------------------------
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (507.3ms)
+Completed 200 OK in 519ms (Views: 519.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m

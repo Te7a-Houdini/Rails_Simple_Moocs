@@ -17,4 +17,3 @@ class CoursesControllerTest < ActionController::TestCase
   end
 
 end
-#rake test test/controllers/courses_controller_test.rb
