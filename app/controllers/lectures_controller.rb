@@ -1,5 +1,5 @@
 class LecturesController < ApplicationController
-  before_action :authenticate_user! , only: [:new,:create,:update,:edit]
+  before_action :authenticate_user! , only: [:new,:create,:update,:edit,:clear_spams,:like,:unlike,:spam,:unspam]
   def new
     @lecture = Lecture.new
 
@@ -93,6 +93,18 @@ class LecturesController < ApplicationController
     send_file my_file
   end
 
+  def clear_spams
+
+    lecture =Lecture.find_by(id: params[:lecture_id])
+    @votes = lecture.find_votes_for(:vote_scope => 'spam')
+
+    @votes.each do |vote|
+
+      vote.destroy()
+    end
+    redirect_to controller: 'lectures', action: 'show', lecture_id: params[:lecture_id]
+
+  end
 
   private
   def require_params

@@ -52,3 +52,4 @@ class CommentsController < ApplicationController
     render :json => @the_comments
   end
 end
+

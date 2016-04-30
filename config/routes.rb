@@ -13,6 +13,9 @@ Rails.application.routes.draw do
 
   get 'lectures/show_lectures/:course_id' => 'lectures#show_course_lectures'
 
+
+ get 'lectures/clear_spam/:lecture_id'=> 'lectures#clear_spams'
+
   post 'like/:lecture_id' => 'lectures#like'
   post 'unlike/:lecture_id' => 'lectures#unlike'
   post 'spam/:lecture_id' => 'lectures#spam'
