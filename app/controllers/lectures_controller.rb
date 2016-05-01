@@ -1,12 +1,24 @@
 class LecturesController < ApplicationController
   before_action :authenticate_user! , only: [:new,:create,:update,:edit,:clear_spams,:like,:unlike,:spam,:unspam]
   def new
-    @lecture = Lecture.new
+
+    if current_user.is_instructor
+
+      @lecture = Lecture.new
+    else
+
+      redirect_to courses_index_path
+    end
+
+
 
   end
 
   def create
-    @lecture = Lecture.new(require_params)
+    if !current_user.is_instructor
+      redirect_to courses_index_path
+    end
+    @lecture = Lecture.new(lecture_params)
     @lecture.user_id = current_user.id
 
     if @lecture.save
@@ -107,7 +119,7 @@ class LecturesController < ApplicationController
   end
 
   private
-  def require_params
+  def lecture_params
 
     params.require(:lecture).permit(:title,:content,:image,:course_id,:attachement);
   end

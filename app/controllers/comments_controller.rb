@@ -1,6 +1,6 @@
 class CommentsController < ApplicationController
 
-  def postComment
+  def create
 
     @comment = Comment.new(:user_id => params[:id],:lecture_id => params[:parent],:content => params[:content])
         @comment.save()
@@ -11,19 +11,19 @@ class CommentsController < ApplicationController
   end
 
 
-  def putComment
+  def update
     @comment = Comment.find_by(:id => params[:id])
     @comment.update_attributes(:content => params[:content])
 
     render :json => params
   end
 
-  def deleteComment
+  def destroy
    @ok=  Comment.destroy(params[:id])
    render :json => true
   end
 
-  def getComments
+  def index
 
     @comments = Comment.where(:lecture_id => params[:lecture_id])
     @the_comments= []

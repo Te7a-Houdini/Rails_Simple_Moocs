@@ -84,25 +84,25 @@ unspam.on('click',unspam_func);
 
 
 function like_func () {
-  $.ajax({url:'/like/'+lecture_id,method:'post'});
+  $.ajax({url:'/lectures/'+lecture_id+'/like',method:'post'});
   unlike.show();
   like.hide();
 }
 
 function unlike_func () {
-    $.ajax({url:'/unlike/'+lecture_id,method:'post'});
+    $.ajax({url:'/lectures/'+lecture_id+'/unlike',method:'post'});
   like.show();
   unlike.hide();
 }
 
 function spam_func() {
-  $.ajax({url:'/spam/'+lecture_id,method:'post'});
+  $.ajax({url:'/lectures/'+lecture_id+'/spam',method:'post'});
   unspam.show();
   spam.hide();
 }
 
 function unspam_func () {
-  $.ajax({url:'/unspam/'+lecture_id,method:'post'});
+  $.ajax({url:'/lectures/'+lecture_id+'/unspam',method:'post'});
   spam.show();
   unspam.hide();
 }
@@ -143,7 +143,7 @@ function unspam_func () {
 
       $.ajax({
         type: 'get',
-        url: '/comments/getComments',
+        url: '/comments/index',
         data: {'lecture_id':lecture_id,'user_id':<%= @user_id %>}
         ,
         success: function(commentsArray) {
@@ -166,7 +166,7 @@ function unspam_func () {
 
       $.ajax({
         type: 'post',
-        url: '/comments/postComment',
+        url: '/comments/create',
         data: commentJSON,
         success: function(comment) {
 
@@ -179,7 +179,7 @@ function unspam_func () {
 
       $.ajax({
         type: 'post',
-        url: '/comments/putComment' ,
+        url: '/comments/update' ,
         data: commentJSON,
         success: function(comment) {
 
@@ -192,7 +192,7 @@ function unspam_func () {
     deleteComment: function(commentJSON, success, error) {
       $.ajax({
         type: 'post',
-        url: '/comments/deleteComment',
+        url: '/comments/destroy',
         data: commentJSON,
         success:success,
         error: error

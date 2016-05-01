@@ -1,39 +1,32 @@
 Rails.application.routes.draw do
   get 'lectures/new'
 
-  get 'lectures/create'
-
   get 'lectures/show'
 
-  get 'lectures/update'
-
-  get 'lectures/edit'
-
-  get 'lectures/destroy'
-
-  get 'lectures/show_lectures/:course_id' => 'lectures#show_course_lectures'
+  get 'lectures/:course_id' => 'lectures#show_course_lectures'
 
 
- get 'lectures/clear_spam/:lecture_id'=> 'lectures#clear_spams'
+ get 'lectures/:lecture_id/clear_spam'=> 'lectures#clear_spams'
 
-  post 'like/:lecture_id' => 'lectures#like'
-  post 'unlike/:lecture_id' => 'lectures#unlike'
-  post 'spam/:lecture_id' => 'lectures#spam'
-  post 'unspam/:lecture_id' => 'lectures#unspam'
+  post 'lectures/:lecture_id/like' => 'lectures#like'
+  post 'lectures/:lecture_id/unlike' => 'lectures#unlike'
+  post 'lectures/:lecture_id/spam' => 'lectures#spam'
+  post 'lectures/:lecture_id/unspam' => 'lectures#unspam'
+
   get 'lectures/download'
+
   mount Ckeditor::Engine => '/ckeditor'
   get 'courses/index'
 
   get 'courses/new'
 
-  get 'courses/create'
-
   get 'home/index'
 
-  post 'comments/postComment'
-  get 'comments/getComments'
-  post 'comments/putComment'
-  post 'comments/deleteComment'
+  post 'comments/create'
+  get 'comments/index'
+  post 'comments/update'
+  post 'comments/destroy'
+
   devise_for :users, controllers: { sessions: "users/sessions" , registrations: "users/registrations" }
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
@@ -42,8 +35,8 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   root 'home#index'
-    resources :courses
+  root 'home#index'
+  resources :courses
   resources :lectures
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -5,12 +5,23 @@ class CoursesController < ApplicationController
   end
 
   def new
+
+     if current_user.is_instructor
+
       @course = Course.new
+     else
+       redirect_to courses_index_path
+     end
 
   end
 
   def create
-    @course = Course.new(require_params)
+
+    if !current_user.is_instructor
+          redirect_to courses_index_path
+      end
+
+      @course = Course.new(courses_params)
 
     @course.user_id = current_user.id
     if @course.save
@@ -25,7 +36,7 @@ class CoursesController < ApplicationController
 
 
 private
-  def require_params
+  def courses_params
 
     params.require(:course).permit(:title,:image);
   end
