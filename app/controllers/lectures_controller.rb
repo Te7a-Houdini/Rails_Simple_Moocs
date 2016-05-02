@@ -76,23 +76,42 @@ class LecturesController < ApplicationController
 
   def like
     @lecture = Lecture.find_by(:id => params[:lecture_id])
-    current_user.likes @lecture
+    if current_user.likes @lecture
+      render :json => true
+    else
+      render :json => false
+    end
   end
 
   def unlike
     @lecture = Lecture.find_by(:id => params[:lecture_id])
-    current_user.dislikes @lecture
+   if current_user.dislikes @lecture
+
+     render :json => true
+   else
+     render :json => false
+   end
   end
 
 
   def spam
     @lecture = Lecture.find_by(:id => params[:lecture_id])
-    current_user.likes @lecture ,:vote_scope => 'spam'
+  if   current_user.likes @lecture ,:vote_scope => 'spam'
+    render :json => true
+  else
+    render :json => false
+
+  end
   end
 
   def unspam
     @lecture = Lecture.find_by(:id => params[:lecture_id])
-    current_user.dislikes @lecture ,:vote_scope => 'spam'
+  if   current_user.dislikes @lecture ,:vote_scope => 'spam'
+    render :json => true
+  else
+    render :json => false
+
+  end
   end
 
   def spamed_page

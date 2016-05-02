@@ -84,27 +84,63 @@ unspam.on('click',unspam_func);
 
 
 function like_func () {
-  $.ajax({url:'/lectures/'+lecture_id+'/like',method:'post'});
-  unlike.show();
-  like.hide();
+  $.ajax({url:'/lectures/'+lecture_id+'/like',method:'post',success:success});
+  function success(respond){
+
+   if (respond) {
+     unlike.show();
+     like.hide();
+   }
+    else
+       alert('Some Thing Went Wrong Try Again');
+  }
+
 }
 
 function unlike_func () {
-    $.ajax({url:'/lectures/'+lecture_id+'/unlike',method:'post'});
-  like.show();
-  unlike.hide();
+    $.ajax({url:'/lectures/'+lecture_id+'/unlike',method:'post',success:success});
+
+  function success(respond){
+
+    if (respond) {
+      like.show();
+      unlike.hide();
+    }
+    else
+      alert('Some Thing Went Wrong Try Again');
+  }
+
 }
 
 function spam_func() {
-  $.ajax({url:'/lectures/'+lecture_id+'/spam',method:'post'});
-  unspam.show();
-  spam.hide();
+  $.ajax({url:'/lectures/'+lecture_id+'/spam',method:'post',success:success});
+
+  function success(respond){
+
+    if (respond) {
+      unspam.show();
+      spam.hide();
+    }
+    else
+      alert('Some Thing Went Wrong Try Again');
+  }
+
 }
 
 function unspam_func () {
-  $.ajax({url:'/lectures/'+lecture_id+'/unspam',method:'post'});
-  spam.show();
-  unspam.hide();
+  $.ajax({url:'/lectures/'+lecture_id+'/unspam',method:'post',success:success});
+
+  function success(respond){
+
+    if (respond) {
+      spam.show();
+      unspam.hide();
+    }
+    else
+      alert('Some Thing Went Wrong Try Again');
+  }
+
+
 }
 
   <%
